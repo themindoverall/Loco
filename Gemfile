@@ -9,13 +9,11 @@ gem 'locomotive_cms', '~> 2.2.2', :require => 'locomotive/engine'
 
 # Gems used only for assets and not required
 # in production environments by default.
-group :assets do
-  gem 'sass-rails',   '~> 3.2.4'
-  gem 'coffee-rails',   '~> 3.2.2'
-  gem 'compass-rails'
-  gem 'uglifier',       '~> 1.2.4'
-	gem 'turbo-sprockets-rails3'
-end
+gem 'sass-rails',   '~> 3.2.4'
+gem 'coffee-rails',   '~> 3.2.2'
+gem 'compass-rails'
+gem 'uglifier',       '~> 1.2.4'
+# gem 'turbo-sprockets-rails3'
 
 
 
